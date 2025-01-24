@@ -26,7 +26,7 @@
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-2xl font-bold mb-4">About Me</h2>
             <p class="text-lg leading-relaxed">
-                Hi, I’m Kunal Madhav, a seasoned technology leader with a proven track record of scaling startups,
+                Hi, I'm Kunal Madhav, a seasoned technology leader with a proven track record of scaling startups,
                 building high-performing engineering teams, and driving innovative solutions. With years of experience
                 as a CTO and advisor, I help organisations navigate the complexities of technology to achieve their goals.
             </p>
@@ -73,7 +73,7 @@
     <section id="contact" class="py-12 bg-indigo-600 text-white">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-2xl font-bold mb-6">Get in Touch</h2>
-            <p class="text-lg mb-6">Let’s discuss how I can help your organisation achieve its technology goals.</p>
+            <p class="text-lg mb-6">Let's discuss how I can help your organisation achieve its technology goals.</p>
             <a href="mailto:kunal.madhav1@gmail.com" class="inline-block bg-white text-indigo-600 px-6 py-3 rounded font-medium hover:bg-gray-100 transition">
                 Email Me
             </a>
@@ -83,7 +83,10 @@
 
     <!-- Footer -->
     <footer class="py-6 bg-gray-800 text-white text-center">
-        <p>&copy; 2025 Kunal Madhav. All rights reserved.</p>
+        <p>&copy; <span id="current-year"></span> Kunal Madhav. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
