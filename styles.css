@@ -124,6 +124,8 @@ h2 { font-size: clamp(32px, 4.4vw, 44px); line-height: 1.1; margin: 12px 0 0; }
 .chart .sl.now { fill: var(--accent-soft); }
 .chart .m { font-size: 11px; }
 .chart .y { font-size: 12px; font-weight: 600; }
+.beyond { margin-top: 32px; padding-top: 24px; border-top: 1px solid color-mix(in srgb, var(--panel-ink) 15%, transparent); color: var(--panel-ink-2); max-width: 75ch; }
+.beyond strong { color: var(--panel-ink); font-weight: 600; }
 .chart-wrap.animate .b { transform: scaleY(0); transform-box: fill-box; transform-origin: bottom; transition: transform .7s cubic-bezier(.2,.7,.2,1); }
 .chart-wrap.animate.in .b { transform: scaleY(1); }
 .chart-wrap figcaption { margin-top: 16px; font-size: 14px; color: var(--panel-ink-2); }
